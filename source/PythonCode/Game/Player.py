@@ -1,10 +1,15 @@
+
+
 class Player:
-    pass
+    def get_move(self, board):
+        pass
 
 
 class Human(Player):
-    pass
+    def get_move(self, board):
+        board.update_board()
 
 
 class Computer(Player):
-    pass
+    def get_move(self, board):
+        pass

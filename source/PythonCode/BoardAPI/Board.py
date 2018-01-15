@@ -4,3 +4,6 @@ class Board:
 
     def initialize(self):
         pass
+
+    def game_over(self):
+        pass

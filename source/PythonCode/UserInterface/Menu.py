@@ -41,7 +41,7 @@ class UserInterface:
     def launch_game(self):
 
         if self.game_select == "1":
-            self.game = ChessGame.ChessGame(*self.player_list)
+            self.game = ChessGame.ChessGame(self.player_list)
 
         self.game.play()
 
